@@ -1,6 +1,6 @@
 /* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information. */
 /**
- * Office UI Fabric 4.0.0
+ * Office UI Fabric Core 4.1.0
  * The front-end framework for building experiences for Office 365.
  **/
 .ms-u-borderBox,
@@ -2074,10 +2074,6 @@
   content: '\EA96';
 }
 
-.ms-Icon--MultiSelectMirrored::before {
-  content: '\EA98';
-}
-
 .ms-Icon--Broom::before {
   content: '\EA99';
 }
@@ -2104,74 +2100,6 @@
 
 .ms-Icon--CircleFill::before {
   content: '\EA3B';
-}
-
-.ms-Icon--BookmarksMirrored::before {
-  content: '\EA41';
-}
-
-.ms-Icon--BulletedListMirrored::before {
-  content: '\EA42';
-}
-
-.ms-Icon--CaretHollowMirrored::before {
-  content: '\EA45';
-}
-
-.ms-Icon--CaretSolidMirrored::before {
-  content: '\EA46';
-}
-
-.ms-Icon--ChromeBackMirrored::before {
-  content: '\EA47';
-}
-
-.ms-Icon--ClosePaneMirrored::before {
-  content: '\EA49';
-}
-
-.ms-Icon--DockLeftMirrored::before {
-  content: '\EA4C';
-}
-
-.ms-Icon--DoubleChevronLeftMedMirrored::before {
-  content: '\EA4D';
-}
-
-.ms-Icon--HelpMirrored::before {
-  content: '\EA51';
-}
-
-.ms-Icon--ListMirrored::before {
-  content: '\EA55';
-}
-
-.ms-Icon--MailForwardMirrored::before {
-  content: '\EA56';
-}
-
-.ms-Icon--MailReplyMirrored::before {
-  content: '\EA57';
-}
-
-.ms-Icon--MailReplyAllMirrored::before {
-  content: '\EA58';
-}
-
-.ms-Icon--OpenPaneMirrored::before {
-  content: '\EA5B';
-}
-
-.ms-Icon--SendMirrored::before {
-  content: '\EA63';
-}
-
-.ms-Icon--ShowResultsMirrored::before {
-  content: '\EA65';
-}
-
-.ms-Icon--ThumbnailViewMirrored::before {
-  content: '\EA67';
 }
 
 .ms-Icon--Lightbulb::before {
@@ -2388,10 +2316,6 @@
 
 .ms-Icon--Door::before {
   content: '\EB75';
-}
-
-.ms-Icon--EditMirrored::before {
-  content: '\EB7E';
 }
 
 .ms-Icon--GiftCard::before {
@@ -2686,10 +2610,6 @@
   content: '\ED25';
 }
 
-.ms-Icon--CalendarMirrored::before {
-  content: '\ED28';
-}
-
 .ms-Icon--SwayLogo::before {
   content: '\ED29';
 }
@@ -2946,10 +2866,6 @@
   content: '\EDB7';
 }
 
-.ms-Icon--TaskManagerMirrored::before {
-  content: '\EDB8';
-}
-
 .ms-Icon--Combine::before {
   content: '\EDBB';
 }
@@ -3118,20 +3034,8 @@
   content: '\EE19';
 }
 
-.ms-Icon--ReplyMirrored::before {
-  content: '\EE35';
-}
-
-.ms-Icon--ReplyAllMirrored::before {
-  content: '\EE36';
-}
-
 .ms-Icon--AddGroup::before {
   content: '\EE3D';
-}
-
-.ms-Icon--QuestionnaireMirrored::before {
-  content: '\EE4B';
 }
 
 .ms-Icon--TemporaryUser::before {
@@ -3164,10 +3068,6 @@
 
 .ms-Icon--AustralianRules::before {
   content: '\EE70';
-}
-
-.ms-Icon--DateTimeMirrored::before {
-  content: '\EE93';
 }
 
 .ms-Icon--DoubleChevronUp12::before {
@@ -3210,16 +3110,8 @@
   content: '\EEB9';
 }
 
-.ms-Icon--FormLibraryMirrored::before {
-  content: '\EEBA';
-}
-
 .ms-Icon--ReportLibrary::before {
   content: '\EEBB';
-}
-
-.ms-Icon--ReportLibraryMirrored::before {
-  content: '\EEBC';
 }
 
 .ms-Icon--ContactCard::before {
@@ -3230,16 +3122,8 @@
   content: '\EEBE';
 }
 
-.ms-Icon--CustomListMirrored::before {
-  content: '\EEBF';
-}
-
 .ms-Icon--IssueTracking::before {
   content: '\EEC0';
-}
-
-.ms-Icon--IssueTrackingMirrored::before {
-  content: '\EEC1';
 }
 
 .ms-Icon--PictureLibrary::before {
@@ -3308,14 +3192,6 @@
 
 .ms-Icon--DelveAnalytics::before {
   content: '\EEEE';
-}
-
-.ms-Icon--ArrowUpRightMirrored8::before {
-  content: '\EEEF';
-}
-
-.ms-Icon--ArrowDownRightMirrored8::before {
-  content: '\EEF0';
 }
 
 .ms-Icon--OneDriveAdd::before {
