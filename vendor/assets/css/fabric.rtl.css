@@ -1,6 +1,6 @@
 /* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information. */
 /**
- * Office UI Fabric 4.0.0
+ * Office UI Fabric Core 4.1.0
  * The front-end framework for building experiences for Office 365.
  **/
 
@@ -2519,10 +2519,6 @@
   content: '\EA96';
 }
 
-.ms-Icon--MultiSelectMirrored::before {
-  content: '\EA98';
-}
-
 .ms-Icon--Broom::before {
   content: '\EA99';
 }
@@ -2549,74 +2545,6 @@
 
 .ms-Icon--CircleFill::before {
   content: '\EA3B';
-}
-
-.ms-Icon--BookmarksMirrored::before {
-  content: '\EA41';
-}
-
-.ms-Icon--BulletedListMirrored::before {
-  content: '\EA42';
-}
-
-.ms-Icon--CaretHollowMirrored::before {
-  content: '\EA45';
-}
-
-.ms-Icon--CaretSolidMirrored::before {
-  content: '\EA46';
-}
-
-.ms-Icon--ChromeBackMirrored::before {
-  content: '\EA47';
-}
-
-.ms-Icon--ClosePaneMirrored::before {
-  content: '\EA49';
-}
-
-.ms-Icon--DockLeftMirrored::before {
-  content: '\EA4C';
-}
-
-.ms-Icon--DoubleChevronLeftMedMirrored::before {
-  content: '\EA4D';
-}
-
-.ms-Icon--HelpMirrored::before {
-  content: '\EA51';
-}
-
-.ms-Icon--ListMirrored::before {
-  content: '\EA55';
-}
-
-.ms-Icon--MailForwardMirrored::before {
-  content: '\EA56';
-}
-
-.ms-Icon--MailReplyMirrored::before {
-  content: '\EA57';
-}
-
-.ms-Icon--MailReplyAllMirrored::before {
-  content: '\EA58';
-}
-
-.ms-Icon--OpenPaneMirrored::before {
-  content: '\EA5B';
-}
-
-.ms-Icon--SendMirrored::before {
-  content: '\EA63';
-}
-
-.ms-Icon--ShowResultsMirrored::before {
-  content: '\EA65';
-}
-
-.ms-Icon--ThumbnailViewMirrored::before {
-  content: '\EA67';
 }
 
 .ms-Icon--Lightbulb::before {
@@ -2833,10 +2761,6 @@
 
 .ms-Icon--Door::before {
   content: '\EB75';
-}
-
-.ms-Icon--EditMirrored::before {
-  content: '\EB7E';
 }
 
 .ms-Icon--GiftCard::before {
@@ -3131,10 +3055,6 @@
   content: '\ED25';
 }
 
-.ms-Icon--CalendarMirrored::before {
-  content: '\ED28';
-}
-
 .ms-Icon--SwayLogo::before {
   content: '\ED29';
 }
@@ -3391,10 +3311,6 @@
   content: '\EDB7';
 }
 
-.ms-Icon--TaskManagerMirrored::before {
-  content: '\EDB8';
-}
-
 .ms-Icon--Combine::before {
   content: '\EDBB';
 }
@@ -3563,20 +3479,8 @@
   content: '\EE19';
 }
 
-.ms-Icon--ReplyMirrored::before {
-  content: '\EE35';
-}
-
-.ms-Icon--ReplyAllMirrored::before {
-  content: '\EE36';
-}
-
 .ms-Icon--AddGroup::before {
   content: '\EE3D';
-}
-
-.ms-Icon--QuestionnaireMirrored::before {
-  content: '\EE4B';
 }
 
 .ms-Icon--TemporaryUser::before {
@@ -3609,10 +3513,6 @@
 
 .ms-Icon--AustralianRules::before {
   content: '\EE70';
-}
-
-.ms-Icon--DateTimeMirrored::before {
-  content: '\EE93';
 }
 
 .ms-Icon--DoubleChevronUp12::before {
@@ -3655,16 +3555,8 @@
   content: '\EEB9';
 }
 
-.ms-Icon--FormLibraryMirrored::before {
-  content: '\EEBA';
-}
-
 .ms-Icon--ReportLibrary::before {
   content: '\EEBB';
-}
-
-.ms-Icon--ReportLibraryMirrored::before {
-  content: '\EEBC';
 }
 
 .ms-Icon--ContactCard::before {
@@ -3675,16 +3567,8 @@
   content: '\EEBE';
 }
 
-.ms-Icon--CustomListMirrored::before {
-  content: '\EEBF';
-}
-
 .ms-Icon--IssueTracking::before {
   content: '\EEC0';
-}
-
-.ms-Icon--IssueTrackingMirrored::before {
-  content: '\EEC1';
 }
 
 .ms-Icon--PictureLibrary::before {
@@ -3753,14 +3637,6 @@
 
 .ms-Icon--DelveAnalytics::before {
   content: '\EEEE';
-}
-
-.ms-Icon--ArrowUpRightMirrored8::before {
-  content: '\EEEF';
-}
-
-.ms-Icon--ArrowDownRightMirrored8::before {
-  content: '\EEF0';
 }
 
 .ms-Icon--OneDriveAdd::before {
@@ -4095,106 +3971,344 @@
   font-size: 20px;
 }
 
-.ms-Icon--question,
-.ms-Icon--calendar,
-.ms-Icon--folder,
-.ms-Icon--chat,
-.ms-Icon--listBullets,
-.ms-Icon--folderMove,
-.ms-Icon--mailSend,
-.ms-Icon--reply,
-.ms-Icon--play,
-.ms-Icon--replyAll,
-.ms-Icon--refresh,
-.ms-Icon--questionReverse,
-.ms-Icon--notRecurring,
-.ms-Icon--tasks,
-.ms-Icon--check,
-.ms-Icon--arrowLeft,
-.ms-Icon--arrowRight,
-.ms-Icon--directions,
-.ms-Icon--caretLeft,
-.ms-Icon--caretRight,
-.ms-Icon--caretUpLeft,
-.ms-Icon--caretUpRight,
-.ms-Icon--caretDownRight,
-.ms-Icon--caretDownLeft,
-.ms-Icon--note,
-.ms-Icon--noteReply,
-.ms-Icon--noteForward,
-.ms-Icon--taskRecurring,
-.ms-Icon--documentReply,
-.ms-Icon--documentForward,
-.ms-Icon--reactivate,
-.ms-Icon--chevronLeft,
-.ms-Icon--chevronRight,
-.ms-Icon--notebook,
-.ms-Icon--chevronsLeft,
-.ms-Icon--chevronsRight,
-.ms-Icon--receiptForward,
-.ms-Icon--receiptReply,
-.ms-Icon--receiptCheck,
-.ms-Icon--eventShare,
-.ms-Icon--oofReply,
-.ms-Icon--voicemailReply,
-.ms-Icon--voicemailForward,
-.ms-Icon--post,
-.ms-Icon--toggle,
-.ms-Icon--late,
-.ms-Icon--eventRecurring,
-.ms-Icon--cart,
-.ms-Icon--socialListening,
-.ms-Icon--replyAlt,
-.ms-Icon--replyAllAlt,
-.ms-Icon--graph,
-.ms-Icon--pinLeft,
-.ms-Icon--chart,
-.ms-Icon--page,
-.ms-Icon--document,
-.ms-Icon--metadata,
-.ms-Icon--pointItem,
-.ms-Icon--dropdown,
-.ms-Icon--checkbox,
-.ms-Icon--reload,
-.ms-Icon--multiChoice,
-.ms-Icon--contactForm,
-.ms-Icon--inboxCheck,
-.ms-Icon--checkboxCheck,
-.ms-Icon--folderSearch,
-.ms-Icon--listCheck,
-.ms-Icon--listGroup,
-.ms-Icon--timeline
-.ms-Icon--mailCheck,
-.ms-Icon--listCheckbox,
-.ms-Icon--sunQuestion,
-.ms-Icon--chevronThinLeft,
-.ms-Icon--chevronThinRight,
-.ms-Icon--chevronThickLeft,
-.ms-Icon--chevronThickRight,
-.ms-Icon--documentLandscape,
-.ms-Icon--peopleCheck,
-.ms-Icon--caretLeftOutline,
-.ms-Icon--caretRightOutline,
-.ms-Icon--mailSync,
-.ms-Icon--peopleSync,
-.ms-Icon--checkPeople,
-.ms-Icon--sortLines,
-.ms-Icon--triangleRight::before,
-.ms-Icon--triangleLeft::before,
-.ms-Icon--contactPublic::before,
-.ms-Icon--triangleEmptyRight::before,
-.ms-Icon--triangleEmptyLeft::before,
-.ms-Icon--fileDocument::before,
-.ms-Icon--listGroup2::before,
-.ms-Icon--copy::before,
-.ms-Icon--sections::before,
-.ms-Icon--arrowUpRight::before,
-.ms-Icon--arrowDownRight::before,
-.ms-Icon--arrowDownLeft::before,
-.ms-Icon--arrowUpLeft::before,
-.ms-Icon--bundle::before {
+.ms-Icon--Airplane,
+.ms-Icon--QuickNote,
+.ms-Icon--Edit,
+.ms-Icon--Video,
+.ms-Icon--People,
+.ms-Icon--Phone,
+.ms-Icon--Pin,
+.ms-Icon--Shop,
+.ms-Icon--Link,
+.ms-Icon--Zoom,
+.ms-Icon--Search,
+.ms-Icon--Attach,
+.ms-Icon--Send,
+.ms-Icon--FavoriteList,
+.ms-Icon--PageSolid,
+.ms-Icon--Forward,
+.ms-Icon--Back,
+.ms-Icon--Refresh,
+.ms-Icon--Blocked,
+.ms-Icon--CheckboxComposite,
+.ms-Icon--CheckMark,
+.ms-Icon--BackToWindow,
+.ms-Icon--FullScreen,
+.ms-Icon--Print,
+.ms-Icon--Save,
+.ms-Icon--EraseTool,
+.ms-Icon--PageLeft,
+.ms-Icon--PageRight,
+.ms-Icon--MultiSelect,
+.ms-Icon--Play,
+.ms-Icon--ChevronLeft,
+.ms-Icon--ChevronRight,
+.ms-Icon--ContactInfo,
+.ms-Icon--Unpin,
+.ms-Icon--WindowsLogo,
+.ms-Icon--Unlock,
+.ms-Icon--Calendar,
+.ms-Icon--Megaphone,
+.ms-Icon--AutoEnhanceOn,
+.ms-Icon--AutoEnhanceOff,
+.ms-Icon--Color,
+.ms-Icon--SaveAs,
+.ms-Icon--Light,
+.ms-Icon--Filters,
+.ms-Icon--Contrast,
+.ms-Icon--Redo,
+.ms-Icon--Undo,
+.ms-Icon--Album,
+.ms-Icon--Rotate,
+.ms-Icon--ThumbnailView,
+.ms-Icon--Package,
+.ms-Icon--Fiancial,
+.ms-Icon--ShoppingCart,
+.ms-Icon--Flag,
+.ms-Icon--Page,
+.ms-Icon--TouchPointer,
+.ms-Icon--TurnRight,
+.ms-Icon--Tab,
+.ms-Icon--Admin,
+.ms-Icon--EatDrink,
+.ms-Icon--SwitcherStartEnd,
+.ms-Icon--Touch,
+.ms-Icon--MapDirections,
+.ms-Icon--History,
+.ms-Icon--Recent,
+.ms-Icon--Hotel,
+.ms-Icon--News,
+.ms-Icon--Chat,
+.ms-Icon--Sync,
+.ms-Icon--Help,
+.ms-Icon--MailForward,
+.ms-Icon--ClosePane,
+.ms-Icon--OpenPane,
+.ms-Icon--PreviewLink,
+.ms-Icon--ZoomIn,
+.ms-Icon--Bookmarks,
+.ms-Icon--Document,
+.ms-Icon--ProtectedDocument,
+.ms-Icon--OpenInNewWindow,
+.ms-Icon--Switch,
+.ms-Icon--Rename,
+.ms-Icon--Folder,
+.ms-Icon--Picture,
+.ms-Icon--ShowResults,
+.ms-Icon--Message,
+.ms-Icon--MailReplyAll,
+.ms-Icon--PaymentCard,
+.ms-Icon--Copy,
+.ms-Icon--MailReply,
+.ms-Icon--Sort,
+.ms-Icon--Font,
+.ms-Icon--FolderFill,
+.ms-Icon--Permissions,
+.ms-Icon--DisableUpdates,
+.ms-Icon--Unfavorite,
+.ms-Icon--MoveToFolder,
+.ms-Icon--Dislike,
+.ms-Icon--Like,
+.ms-Icon--AlignRight,
+.ms-Icon--AlignCenter,
+.ms-Icon--AlignLeft,
+.ms-Icon--OpenFile,
+.ms-Icon--FontDecrease,
+.ms-Icon--FontIncraese,
+.ms-Icon--FontSize,
+.ms-Icon--Tag,
+.ms-Icon--Library,
+.ms-Icon--PostUpdate,
+.ms-Icon--NewFolder,
+.ms-Icon--CalendarReply,
+.ms-Icon--UnsyncFolder,
+.ms-Icon--SyncFolder,
+.ms-Icon--BlockContact,
+.ms-Icon--AddFriend,
+.ms-Icon--BulletedList,
+.ms-Icon--Preview,
+.ms-Icon--DockLeft,
+.ms-Icon--DockRight,
+.ms-Icon--Repair,
+.ms-Icon--Accounts,
+.ms-Icon--Stopwatch,
+.ms-Icon--Clock,
+.ms-Icon--AlarmClock,
+.ms-Icon--Timer,
+.ms-Icon--Annotation,
+.ms-Icon--Accept,
+.ms-Icon--Fingerprint,
+.ms-Icon--Handwriting,
+.ms-Icon--StackIndicator,
+.ms-Icon--Completed,
+.ms-Icon--Label,
+.ms-Icon--FlickLeft,
+.ms-Icon--FlickRight,
+.ms-Icon--MusicInCollection,
+.ms-Icon--OneDrive,
+.ms-Icon--CompassNW,
+.ms-Icon--LightningBolt,
+.ms-Icon--PrintfaxPrinterFile,
+.ms-Icon--Health,
+.ms-Icon--ChevronLeftSmall,
+.ms-Icon--ChevronRightSmall,
+.ms-Icon--ChevronLeftMed,
+.ms-Icon--ChevronRightMed,
+.ms-Icon--Dictionary,
+.ms-Icon--ChromeBack,
+.ms-Icon--PresenceChickletVideo,
+.ms-Icon--Reply,
+.ms-Icon--DoubleChevronLeftMed,
+.ms-Icon--CaretHollow,
+.ms-Icon--CaretSolid,
+.ms-Icon--Pinned,
+.ms-Icon--PinnedFill,
+.ms-Icon--Chart,
+.ms-Icon--RevToggleKey,
+.ms-Icon--RightDoubleQuote,
+.ms-Icon--SortLines,
+.ms-Icon--CheckList,
+.ms-Icon--Generate,
+.ms-Icon--Equalizer,
+.ms-Icon--BarChartHorizontal,
+.ms-Icon--Freezing,
+.ms-Icon--SnowShowerDay,
+.ms-Icon--HailDay,
+.ms-Icon--WorkFlow,
+.ms-Icon--StoreLogoMed,
+.ms-Icon--RainShowersNight,
+.ms-Icon--SnowShowerNight,
+.ms-Icon--HailNight,
+.ms-Icon--StoreLogo,
+.ms-Icon--Broom,
+.ms-Icon--MusicInCollectionFill,
+.ms-Icon--List,
+.ms-Icon--VolumeDisabled,
+.ms-Icon--Puzzle,
+.ms-Icon--Articles,
+.ms-Icon--Cycling,
+.ms-Icon--Pill,
+.ms-Icon--Running,
+.ms-Icon--Weights,
+.ms-Icon--Coffee,
+.ms-Icon--Market,
+.ms-Icon--Money,
+.ms-Icon--PieDouble,
+.ms-Icon--Cricket,
+.ms-Icon--Golf,
+.ms-Icon--MoreSports,
+.ms-Icon--AutoRacing,
+.ms-Icon--ProHockey,
+.ms-Icon--Rugby,
+.ms-Icon--Tennis,
+.ms-Icon--Arrivals,
+.ms-Icon--Design,
+.ms-Icon--Door,
+.ms-Icon--EditMirrored,
+.ms-Icon--GiftCard,
+.ms-Icon--DoubleBookmark,
+.ms-Icon--Certificate,
+.ms-Icon--CloudDownload,
+.ms-Icon--Family,
+.ms-Icon--CSS,
+.ms-Icon--ReminderGroup,
+.ms-Icon--Documentation,
+.ms-Icon--Cafe,
+.ms-Icon--SpeedHigh,
+.ms-Icon--MusicNote,
+.ms-Icon--AlbumRemove,
+.ms-Icon--MessageFill,
+.ms-Icon--TabletSelected,
+.ms-Icon--MobileSelected,
+.ms-Icon--LaptopSelected,
+.ms-Icon--TVMonitorSelected,
+.ms-Icon--DeveloperTools,
+.ms-Icon--InsertTextBox,
+.ms-Icon--CloudUpload,
+.ms-Icon--DateTime,
+.ms-Icon--Cake,
+.ms-Icon--Tiles,
+.ms-Icon--PartyLeader,
+.ms-Icon--CloudAdd,
+.ms-Icon--AppIconDefault,
+.ms-Icon--Embed,
+.ms-Icon--VideoSolid,
+.ms-Icon--Teamwork,
+.ms-Icon--PeopleAdd,
+.ms-Icon--Product,
+.ms-Icon--FangBody,
+.ms-Icon--Glimmer,
+.ms-Icon--ChatInviteFriend,
+.ms-Icon--ReturnToSession,
+.ms-Icon--OpenFolderHorizontal,
+.ms-Icon--OutOfOffice,
+.ms-Icon--ReopenPages,
+.ms-Icon--Balloons,
+.ms-Icon--Cat,
+.ms-Icon--MailAlert,
+.ms-Icon--MailCheck,
+.ms-Icon--MailLowImportance,
+.ms-Icon--MailPause,
+.ms-Icon--MailRepeat,
+.ms-Icon--SecurityGroup,
+.ms-Icon--VoicemailForward,
+.ms-Icon--VoicemailReply,
+.ms-Icon--ForwardEvent,
+.ms-Icon--WipePhone,
+.ms-Icon--AddOnlineMeeting,
+.ms-Icon--JoinOnlineMeeting,
+.ms-Icon--RemoveLink,
+.ms-Icon--PeopleBlock,
+.ms-Icon--PeopleRepeat,
+.ms-Icon--PeopleAlert,
+.ms-Icon--PeoplePause,
+.ms-Icon--TransferCall,
+.ms-Icon--AddPhone,
+.ms-Icon--UnknownCall,
+.ms-Icon--NoteReply,
+.ms-Icon--NoteForward,
+.ms-Icon--NotePinned,
+.ms-Icon--RemoveOccurrence,
+.ms-Icon--Timeline,
+.ms-Icon--EditNote,
+.ms-Icon--Room,
+.ms-Icon--RecurringTask,
+.ms-Icon--TaskManager,
+.ms-Icon--Dropdown,
+.ms-Icon--ClearFormatting,
+.ms-Icon--Questionnaire,
+.ms-Icon--AddGroup,
+.ms-Icon--TemporaryUser,
+.ms-Icon--GroupedDescending,
+.ms-Icon--GroupedAscending,
+.ms-Icon--AwayStatus,
+.ms-Icon--SyncToPC,
+.ms-Icon--AustralianRules,
+.ms-Icon--AssetLibrary,
+.ms-Icon--DataConnectionLibrary,
+.ms-Icon--DocLibrary,
+.ms-Icon--FormLibrary,
+.ms-Icon--ReportLibrary,
+.ms-Icon--ContactCard,
+.ms-Icon--CustomList,
+.ms-Icon--IssueTracking,
+.ms-Icon--PictureLibrary,
+.ms-Icon--OfflineOneDriveParachuteDisabled,
+.ms-Icon--DocumentSet,
+.ms-Icon--DelveAnalytics,
+.ms-Icon--OneDriveAdd,
+.ms-Icon--MarketDown,
+.ms-Icon--SidePanel,
+.ms-Icon--GlobeFavorite,
+.ms-Icon--DocumentReply,
+.ms-Icon--PlayerSettings,
+.ms-Icon--ReceiptForward,
+.ms-Icon--ReceiptReply,
+.ms-Icon--ReceiptCheck,
+.ms-Icon--Fax,
+.ms-Icon--RecurringEvent,
+.ms-Icon--ReplyAlt,
+.ms-Icon--ReplyAllAlt,
+.ms-Icon--EditStyle,
+.ms-Icon--EditMail,
+.ms-Icon--LifesaverLock,
+.ms-Icon--InboxCheck,
+.ms-Icon--FolderSearch,
+.ms-Icon--Boards,
+.ms-Icon--SunAdd,
+.ms-Icon--SunQuestionMark,
+.ms-Icon--LandscapeOrientation,
+.ms-Icon--DocumentSearch,
+.ms-Icon--PublicCalendar,
+.ms-Icon--PublicContactCard,
+.ms-Icon--PublicEmail,
+.ms-Icon--PublicFolder,
+.ms-Icon--GroupedList,
+.ms-Icon--Sections,
+.ms-Icon--EditPhoto,
+.ms-Icon--AirTickets,
+.ms-Icon--PencilReply,
+.ms-Icon--SkypeCircleCheck,
+.ms-Icon--SkypeCircleClock,
+.ms-Icon--SkypeCheck,
+.ms-Icon--SkypeClock,
+.ms-Icon--SkypeMessage,
+.ms-Icon--ClosedCaption,
+.ms-Icon--RecycleBin,
+.ms-Icon--EmptyRecycleBin,
+.ms-Icon--Breadcrumb,
+.ms-Icon--ClearFilter,
+.ms-Icon--Flow {
   -ms-transform: scaleX(-1);
       transform: scaleX(-1);
+}
+
+.ms-Icon--BidiLtr::before {
+  content: '\E9AB';
+}
+
+.ms-Icon--BidiRtl::before {
+  content: '\E9AA';
 }
 
 .ms-u-slideRightIn10 {
