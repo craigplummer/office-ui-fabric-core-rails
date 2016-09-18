@@ -2,6 +2,6 @@
   "name": "office-ui-fabric-core-rails",
   "version": "4.1.0",
   "dependencies": {
-    "office-ui-fabric": "4.1.0"
+    "office-ui-fabric-core": "^4.1.0"
   }
 }

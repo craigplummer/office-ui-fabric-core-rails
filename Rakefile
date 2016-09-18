@@ -8,9 +8,9 @@ task :default => :spec
 namespace :assets do
   desc 'Update Office UI Fabric Core assets'
   task update: :clean do
-    sh 'bower install'
-    sh 'cp -r bower_components/office-ui-fabric/dist/sass/* vendor/assets/scss'
-    sh 'cp -r bower_components/office-ui-fabric/dist/css/* vendor/assets/css'
+    sh 'npm install'
+    sh 'cp -r node_modules/office-ui-fabric-core/dist/sass/* vendor/assets/scss'
+    sh 'cp -r node_modules/office-ui-fabric-core/dist/css/* vendor/assets/css'
 
     puts "Updated to the latest version of Office UI Fabric Core"
   end
