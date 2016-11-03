@@ -1,6 +1,6 @@
 /* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information. */
 /**
- * Office UI Fabric Core 4.1.0
+ * Office UI Fabric Core 5.0.0
  * The front-end framework for building experiences for Office 365.
  **/
 
@@ -495,28 +495,28 @@
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Light'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Light.ttf') format('truetype');
+  src: local('Segoe UI Light'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Regular.ttf') format('truetype');
+  src: local('Segoe UI'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Semibold'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semibold.ttf') format('truetype');
+  src: local('Segoe UI Semibold'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Semilight'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff2') format('woff2'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/SegoeUI-WestEuropean/SegoeUI-Semilight.ttf') format('truetype');
+  src: local('Segoe UI Semilight'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
@@ -1352,7 +1352,7 @@
 
 @font-face {
   font-family: 'FabricMDL2Icons';
-  src: url('https://appsforoffice.microsoft.com/fabric/fonts/icons/FabricMDL2Icons.woff') format('woff'), url('https://appsforoffice.microsoft.com/fabric/fonts/icons/FabricMDL2Icons.ttf') format('truetype');
+  src: url('https://spoppe-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -1365,6 +1365,62 @@
   font-style: normal;
   font-weight: normal;
   speak: none;
+}
+
+.ms-Icon--circle {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  width: 1em;
+  height: 1em;
+  margin: 0 0 0 0.5em;
+  padding: 0;
+  text-align: right;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ms-Icon--circle::before,
+.ms-Icon--circle::after {
+  line-height: 1;
+  font-size: inherit;
+}
+
+.ms-Icon--circle::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  position: absolute;
+}
+
+.ms-Icon--circle::after {
+  content: '\e000';
+  position: absolute;
+  top: 0;
+  right: 0;
+  -ms-transform: scale(2);
+      transform: scale(2);
+  -ms-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+  z-index: 0;
+}
+
+.ms-Icon--xs {
+  font-size: 10px;
+}
+
+.ms-Icon--s {
+  font-size: 12px;
+}
+
+.ms-Icon--m {
+  font-size: 16px;
+}
+
+.ms-Icon--l {
+  font-size: 20px;
 }
 
 .ms-Icon--DecreaseIndentLegacy::before {
@@ -1723,6 +1779,10 @@
   content: '\E7A7';
 }
 
+.ms-Icon--PhotoCollection::before {
+  content: '\E7AA';
+}
+
 .ms-Icon--Album::before {
   content: '\E7AB';
 }
@@ -1801,6 +1861,10 @@
 
 .ms-Icon--Speakers::before {
   content: '\E7F5';
+}
+
+.ms-Icon--Nav2DMapView::before {
+  content: '\E800';
 }
 
 .ms-Icon--Car::before {
@@ -2159,6 +2223,10 @@
   content: '\E917';
 }
 
+.ms-Icon--WorldClock::before {
+  content: '\E918';
+}
+
 .ms-Icon--AlarmClock::before {
   content: '\E919';
 }
@@ -2351,6 +2419,10 @@
   content: '\E818';
 }
 
+.ms-Icon--FolderOpen::before {
+  content: '\E838';
+}
+
 .ms-Icon--Pinned::before {
   content: '\E840';
 }
@@ -2519,6 +2591,10 @@
   content: '\EA96';
 }
 
+.ms-Icon--MultiSelectMirrored::before {
+  content: '\EA98';
+}
+
 .ms-Icon--Broom::before {
   content: '\EA99';
 }
@@ -2545,6 +2621,74 @@
 
 .ms-Icon--CircleFill::before {
   content: '\EA3B';
+}
+
+.ms-Icon--BookmarksMirrored::before {
+  content: '\EA41';
+}
+
+.ms-Icon--BulletedListMirrored::before {
+  content: '\EA42';
+}
+
+.ms-Icon--CaretHollowMirrored::before {
+  content: '\EA45';
+}
+
+.ms-Icon--CaretSolidMirrored::before {
+  content: '\EA46';
+}
+
+.ms-Icon--ChromeBackMirrored::before {
+  content: '\EA47';
+}
+
+.ms-Icon--ClosePaneMirrored::before {
+  content: '\EA49';
+}
+
+.ms-Icon--DockLeftMirrored::before {
+  content: '\EA4C';
+}
+
+.ms-Icon--DoubleChevronLeftMedMirrored::before {
+  content: '\EA4D';
+}
+
+.ms-Icon--HelpMirrored::before {
+  content: '\EA51';
+}
+
+.ms-Icon--ListMirrored::before {
+  content: '\EA55';
+}
+
+.ms-Icon--MailForwardMirrored::before {
+  content: '\EA56';
+}
+
+.ms-Icon--MailReplyMirrored::before {
+  content: '\EA57';
+}
+
+.ms-Icon--MailReplyAllMirrored::before {
+  content: '\EA58';
+}
+
+.ms-Icon--OpenPaneMirrored::before {
+  content: '\EA5B';
+}
+
+.ms-Icon--SendMirrored::before {
+  content: '\EA63';
+}
+
+.ms-Icon--ShowResultsMirrored::before {
+  content: '\EA65';
+}
+
+.ms-Icon--ThumbnailViewMirrored::before {
+  content: '\EA67';
 }
 
 .ms-Icon--Lightbulb::before {
@@ -2761,6 +2905,10 @@
 
 .ms-Icon--Door::before {
   content: '\EB75';
+}
+
+.ms-Icon--EditMirrored::before {
+  content: '\EB7E';
 }
 
 .ms-Icon--GiftCard::before {
@@ -3055,6 +3203,10 @@
   content: '\ED25';
 }
 
+.ms-Icon--CalendarMirrored::before {
+  content: '\ED28';
+}
+
 .ms-Icon--SwayLogo::before {
   content: '\ED29';
 }
@@ -3311,6 +3463,10 @@
   content: '\EDB7';
 }
 
+.ms-Icon--TaskManagerMirrored::before {
+  content: '\EDB8';
+}
+
 .ms-Icon--Combine::before {
   content: '\EDBB';
 }
@@ -3375,7 +3531,8 @@
   content: '\EDCB';
 }
 
-.ms-Icon--DynamicsCRMLogo::before {
+.ms-Icon--DynamicsCRMLogo::before,
+.ms-Icon--Dynamics365Logo::before {
   content: '\EDCC';
 }
 
@@ -3431,7 +3588,8 @@
   content: '\EDD9';
 }
 
-.ms-Icon--CarotRightSolid8::before {
+.ms-Icon--CarotRightSolid8::before,
+.ms-Icon--CaretRightSolid8::before {
   content: '\EDDA';
 }
 
@@ -3479,8 +3637,20 @@
   content: '\EE19';
 }
 
+.ms-Icon--ReplyMirrored::before {
+  content: '\EE35';
+}
+
+.ms-Icon--ReplyAllMirrored::before {
+  content: '\EE36';
+}
+
 .ms-Icon--AddGroup::before {
   content: '\EE3D';
+}
+
+.ms-Icon--QuestionnaireMirrored::before {
+  content: '\EE4B';
 }
 
 .ms-Icon--TemporaryUser::before {
@@ -3513,6 +3683,10 @@
 
 .ms-Icon--AustralianRules::before {
   content: '\EE70';
+}
+
+.ms-Icon--DateTimeMirrored::before {
+  content: '\EE93';
 }
 
 .ms-Icon--DoubleChevronUp12::before {
@@ -3555,8 +3729,16 @@
   content: '\EEB9';
 }
 
+.ms-Icon--FormLibraryMirrored::before {
+  content: '\EEBA';
+}
+
 .ms-Icon--ReportLibrary::before {
   content: '\EEBB';
+}
+
+.ms-Icon--ReportLibraryMirrored::before {
+  content: '\EEBC';
 }
 
 .ms-Icon--ContactCard::before {
@@ -3567,8 +3749,16 @@
   content: '\EEBE';
 }
 
+.ms-Icon--CustomListMirrored::before {
+  content: '\EEBF';
+}
+
 .ms-Icon--IssueTracking::before {
   content: '\EEC0';
+}
+
+.ms-Icon--IssueTrackingMirrored::before {
+  content: '\EEC1';
 }
 
 .ms-Icon--PictureLibrary::before {
@@ -3637,6 +3827,14 @@
 
 .ms-Icon--DelveAnalytics::before {
   content: '\EEEE';
+}
+
+.ms-Icon--ArrowUpRightMirrored8::before {
+  content: '\EEEF';
+}
+
+.ms-Icon--ArrowDownRightMirrored8::before {
+  content: '\EEF0';
 }
 
 .ms-Icon--OneDriveAdd::before {
@@ -3907,6 +4105,14 @@
   content: '\EF90';
 }
 
+.ms-Icon--PageCheckedOut::before {
+  content: '\F02C';
+}
+
+.ms-Icon--SetAction::before {
+  content: '\F071';
+}
+
 .ms-Icon--PowerAppsLogo::before {
   content: '\F091';
 }
@@ -3915,392 +4121,120 @@
   content: '\F092';
 }
 
-.ms-Icon--circle {
-  position: relative;
-  display: inline-block;
-  font-size: 1rem;
-  width: 1em;
-  height: 1em;
-  margin: 0 0 0 0.5em;
-  padding: 0;
-  text-align: right;
-  -webkit-font-smoothing: antialiased;
+.ms-Icon--FabricAssetLibrary::before {
+  content: '\F09C';
 }
 
-.ms-Icon--circle::before,
-.ms-Icon--circle::after {
-  line-height: 1;
-  font-size: inherit;
+.ms-Icon--FabricDataConnectionLibrary::before {
+  content: '\F09D';
 }
 
-.ms-Icon--circle::before {
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  vertical-align: top;
-  position: absolute;
+.ms-Icon--FabricDocLibrary::before {
+  content: '\F09E';
 }
 
-.ms-Icon--circle::after {
-  content: '\e000';
-  position: absolute;
-  top: 0;
-  right: 0;
-  -ms-transform: scale(2);
-      transform: scale(2);
-  -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%;
-  z-index: 0;
+.ms-Icon--FabricFormLibrary::before {
+  content: '\F09F';
 }
 
-.ms-Icon--xs {
-  font-size: 10px;
+.ms-Icon--FabricFormLibraryMirrored::before {
+  content: '\F0A0';
 }
 
-.ms-Icon--s {
-  font-size: 12px;
+.ms-Icon--FabricReportLibrary::before {
+  content: '\F0A1';
 }
 
-.ms-Icon--m {
-  font-size: 16px;
+.ms-Icon--FabricReportLibraryMirrored::before {
+  content: '\F0A2';
 }
 
-.ms-Icon--l {
-  font-size: 20px;
+.ms-Icon--FabricPublicFolder::before {
+  content: '\F0A3';
 }
 
-.ms-Icon--Airplane,
-.ms-Icon--QuickNote,
-.ms-Icon--Edit,
-.ms-Icon--Video,
-.ms-Icon--People,
-.ms-Icon--Phone,
-.ms-Icon--Pin,
-.ms-Icon--Shop,
-.ms-Icon--Link,
-.ms-Icon--Zoom,
-.ms-Icon--Search,
-.ms-Icon--Attach,
-.ms-Icon--Send,
-.ms-Icon--FavoriteList,
-.ms-Icon--PageSolid,
-.ms-Icon--Forward,
-.ms-Icon--Back,
-.ms-Icon--Refresh,
-.ms-Icon--Blocked,
-.ms-Icon--CheckboxComposite,
-.ms-Icon--CheckMark,
-.ms-Icon--BackToWindow,
-.ms-Icon--FullScreen,
-.ms-Icon--Print,
-.ms-Icon--Save,
-.ms-Icon--EraseTool,
-.ms-Icon--PageLeft,
-.ms-Icon--PageRight,
-.ms-Icon--MultiSelect,
-.ms-Icon--Play,
-.ms-Icon--ChevronLeft,
-.ms-Icon--ChevronRight,
-.ms-Icon--ContactInfo,
-.ms-Icon--Unpin,
-.ms-Icon--WindowsLogo,
-.ms-Icon--Unlock,
-.ms-Icon--Calendar,
-.ms-Icon--Megaphone,
-.ms-Icon--AutoEnhanceOn,
-.ms-Icon--AutoEnhanceOff,
-.ms-Icon--Color,
-.ms-Icon--SaveAs,
-.ms-Icon--Light,
-.ms-Icon--Filters,
-.ms-Icon--Contrast,
-.ms-Icon--Redo,
-.ms-Icon--Undo,
-.ms-Icon--Album,
-.ms-Icon--Rotate,
-.ms-Icon--ThumbnailView,
-.ms-Icon--Package,
-.ms-Icon--Fiancial,
-.ms-Icon--ShoppingCart,
-.ms-Icon--Flag,
-.ms-Icon--Page,
-.ms-Icon--TouchPointer,
-.ms-Icon--TurnRight,
-.ms-Icon--Tab,
-.ms-Icon--Admin,
-.ms-Icon--EatDrink,
-.ms-Icon--SwitcherStartEnd,
-.ms-Icon--Touch,
-.ms-Icon--MapDirections,
-.ms-Icon--History,
-.ms-Icon--Recent,
-.ms-Icon--Hotel,
-.ms-Icon--News,
-.ms-Icon--Chat,
-.ms-Icon--Sync,
-.ms-Icon--Help,
-.ms-Icon--MailForward,
-.ms-Icon--ClosePane,
-.ms-Icon--OpenPane,
-.ms-Icon--PreviewLink,
-.ms-Icon--ZoomIn,
-.ms-Icon--Bookmarks,
-.ms-Icon--Document,
-.ms-Icon--ProtectedDocument,
-.ms-Icon--OpenInNewWindow,
-.ms-Icon--Switch,
-.ms-Icon--Rename,
-.ms-Icon--Folder,
-.ms-Icon--Picture,
-.ms-Icon--ShowResults,
-.ms-Icon--Message,
-.ms-Icon--MailReplyAll,
-.ms-Icon--PaymentCard,
-.ms-Icon--Copy,
-.ms-Icon--MailReply,
-.ms-Icon--Sort,
-.ms-Icon--Font,
-.ms-Icon--FolderFill,
-.ms-Icon--Permissions,
-.ms-Icon--DisableUpdates,
-.ms-Icon--Unfavorite,
-.ms-Icon--MoveToFolder,
-.ms-Icon--Dislike,
-.ms-Icon--Like,
-.ms-Icon--AlignRight,
-.ms-Icon--AlignCenter,
-.ms-Icon--AlignLeft,
-.ms-Icon--OpenFile,
-.ms-Icon--FontDecrease,
-.ms-Icon--FontIncraese,
-.ms-Icon--FontSize,
-.ms-Icon--Tag,
-.ms-Icon--Library,
-.ms-Icon--PostUpdate,
-.ms-Icon--NewFolder,
-.ms-Icon--CalendarReply,
-.ms-Icon--UnsyncFolder,
-.ms-Icon--SyncFolder,
-.ms-Icon--BlockContact,
-.ms-Icon--AddFriend,
-.ms-Icon--BulletedList,
-.ms-Icon--Preview,
-.ms-Icon--DockLeft,
-.ms-Icon--DockRight,
-.ms-Icon--Repair,
-.ms-Icon--Accounts,
-.ms-Icon--Stopwatch,
-.ms-Icon--Clock,
-.ms-Icon--AlarmClock,
-.ms-Icon--Timer,
-.ms-Icon--Annotation,
-.ms-Icon--Accept,
-.ms-Icon--Fingerprint,
-.ms-Icon--Handwriting,
-.ms-Icon--StackIndicator,
-.ms-Icon--Completed,
-.ms-Icon--Label,
-.ms-Icon--FlickLeft,
-.ms-Icon--FlickRight,
-.ms-Icon--MusicInCollection,
-.ms-Icon--OneDrive,
-.ms-Icon--CompassNW,
-.ms-Icon--LightningBolt,
-.ms-Icon--PrintfaxPrinterFile,
-.ms-Icon--Health,
-.ms-Icon--ChevronLeftSmall,
-.ms-Icon--ChevronRightSmall,
-.ms-Icon--ChevronLeftMed,
-.ms-Icon--ChevronRightMed,
-.ms-Icon--Dictionary,
-.ms-Icon--ChromeBack,
-.ms-Icon--PresenceChickletVideo,
-.ms-Icon--Reply,
-.ms-Icon--DoubleChevronLeftMed,
-.ms-Icon--CaretHollow,
-.ms-Icon--CaretSolid,
-.ms-Icon--Pinned,
-.ms-Icon--PinnedFill,
-.ms-Icon--Chart,
-.ms-Icon--RevToggleKey,
-.ms-Icon--RightDoubleQuote,
-.ms-Icon--SortLines,
-.ms-Icon--CheckList,
-.ms-Icon--Generate,
-.ms-Icon--Equalizer,
-.ms-Icon--BarChartHorizontal,
-.ms-Icon--Freezing,
-.ms-Icon--SnowShowerDay,
-.ms-Icon--HailDay,
-.ms-Icon--WorkFlow,
-.ms-Icon--StoreLogoMed,
-.ms-Icon--RainShowersNight,
-.ms-Icon--SnowShowerNight,
-.ms-Icon--HailNight,
-.ms-Icon--StoreLogo,
-.ms-Icon--Broom,
-.ms-Icon--MusicInCollectionFill,
-.ms-Icon--List,
-.ms-Icon--VolumeDisabled,
-.ms-Icon--Puzzle,
-.ms-Icon--Articles,
-.ms-Icon--Cycling,
-.ms-Icon--Pill,
-.ms-Icon--Running,
-.ms-Icon--Weights,
-.ms-Icon--Coffee,
-.ms-Icon--Market,
-.ms-Icon--Money,
-.ms-Icon--PieDouble,
-.ms-Icon--Cricket,
-.ms-Icon--Golf,
-.ms-Icon--MoreSports,
-.ms-Icon--AutoRacing,
-.ms-Icon--ProHockey,
-.ms-Icon--Rugby,
-.ms-Icon--Tennis,
-.ms-Icon--Arrivals,
-.ms-Icon--Design,
-.ms-Icon--Door,
-.ms-Icon--EditMirrored,
-.ms-Icon--GiftCard,
-.ms-Icon--DoubleBookmark,
-.ms-Icon--Certificate,
-.ms-Icon--CloudDownload,
-.ms-Icon--Family,
-.ms-Icon--CSS,
-.ms-Icon--ReminderGroup,
-.ms-Icon--Documentation,
-.ms-Icon--Cafe,
-.ms-Icon--SpeedHigh,
-.ms-Icon--MusicNote,
-.ms-Icon--AlbumRemove,
-.ms-Icon--MessageFill,
-.ms-Icon--TabletSelected,
-.ms-Icon--MobileSelected,
-.ms-Icon--LaptopSelected,
-.ms-Icon--TVMonitorSelected,
-.ms-Icon--DeveloperTools,
-.ms-Icon--InsertTextBox,
-.ms-Icon--CloudUpload,
-.ms-Icon--DateTime,
-.ms-Icon--Cake,
-.ms-Icon--Tiles,
-.ms-Icon--PartyLeader,
-.ms-Icon--CloudAdd,
-.ms-Icon--AppIconDefault,
-.ms-Icon--Embed,
-.ms-Icon--VideoSolid,
-.ms-Icon--Teamwork,
-.ms-Icon--PeopleAdd,
-.ms-Icon--Product,
-.ms-Icon--FangBody,
-.ms-Icon--Glimmer,
-.ms-Icon--ChatInviteFriend,
-.ms-Icon--ReturnToSession,
-.ms-Icon--OpenFolderHorizontal,
-.ms-Icon--OutOfOffice,
-.ms-Icon--ReopenPages,
-.ms-Icon--Balloons,
-.ms-Icon--Cat,
-.ms-Icon--MailAlert,
-.ms-Icon--MailCheck,
-.ms-Icon--MailLowImportance,
-.ms-Icon--MailPause,
-.ms-Icon--MailRepeat,
-.ms-Icon--SecurityGroup,
-.ms-Icon--VoicemailForward,
-.ms-Icon--VoicemailReply,
-.ms-Icon--ForwardEvent,
-.ms-Icon--WipePhone,
-.ms-Icon--AddOnlineMeeting,
-.ms-Icon--JoinOnlineMeeting,
-.ms-Icon--RemoveLink,
-.ms-Icon--PeopleBlock,
-.ms-Icon--PeopleRepeat,
-.ms-Icon--PeopleAlert,
-.ms-Icon--PeoplePause,
-.ms-Icon--TransferCall,
-.ms-Icon--AddPhone,
-.ms-Icon--UnknownCall,
-.ms-Icon--NoteReply,
-.ms-Icon--NoteForward,
-.ms-Icon--NotePinned,
-.ms-Icon--RemoveOccurrence,
-.ms-Icon--Timeline,
-.ms-Icon--EditNote,
-.ms-Icon--Room,
-.ms-Icon--RecurringTask,
-.ms-Icon--TaskManager,
-.ms-Icon--Dropdown,
-.ms-Icon--ClearFormatting,
-.ms-Icon--Questionnaire,
-.ms-Icon--AddGroup,
-.ms-Icon--TemporaryUser,
-.ms-Icon--GroupedDescending,
-.ms-Icon--GroupedAscending,
-.ms-Icon--AwayStatus,
-.ms-Icon--SyncToPC,
-.ms-Icon--AustralianRules,
-.ms-Icon--AssetLibrary,
-.ms-Icon--DataConnectionLibrary,
-.ms-Icon--DocLibrary,
-.ms-Icon--FormLibrary,
-.ms-Icon--ReportLibrary,
-.ms-Icon--ContactCard,
-.ms-Icon--CustomList,
-.ms-Icon--IssueTracking,
-.ms-Icon--PictureLibrary,
-.ms-Icon--OfflineOneDriveParachuteDisabled,
-.ms-Icon--DocumentSet,
-.ms-Icon--DelveAnalytics,
-.ms-Icon--OneDriveAdd,
-.ms-Icon--MarketDown,
-.ms-Icon--SidePanel,
-.ms-Icon--GlobeFavorite,
-.ms-Icon--DocumentReply,
-.ms-Icon--PlayerSettings,
-.ms-Icon--ReceiptForward,
-.ms-Icon--ReceiptReply,
-.ms-Icon--ReceiptCheck,
-.ms-Icon--Fax,
-.ms-Icon--RecurringEvent,
-.ms-Icon--ReplyAlt,
-.ms-Icon--ReplyAllAlt,
-.ms-Icon--EditStyle,
-.ms-Icon--EditMail,
-.ms-Icon--LifesaverLock,
-.ms-Icon--InboxCheck,
-.ms-Icon--FolderSearch,
-.ms-Icon--Boards,
-.ms-Icon--SunAdd,
-.ms-Icon--SunQuestionMark,
-.ms-Icon--LandscapeOrientation,
-.ms-Icon--DocumentSearch,
-.ms-Icon--PublicCalendar,
-.ms-Icon--PublicContactCard,
-.ms-Icon--PublicEmail,
-.ms-Icon--PublicFolder,
-.ms-Icon--GroupedList,
-.ms-Icon--Sections,
-.ms-Icon--EditPhoto,
-.ms-Icon--AirTickets,
-.ms-Icon--PencilReply,
-.ms-Icon--SkypeCircleCheck,
-.ms-Icon--SkypeCircleClock,
-.ms-Icon--SkypeCheck,
-.ms-Icon--SkypeClock,
-.ms-Icon--SkypeMessage,
-.ms-Icon--ClosedCaption,
-.ms-Icon--RecycleBin,
-.ms-Icon--EmptyRecycleBin,
-.ms-Icon--Breadcrumb,
-.ms-Icon--ClearFilter,
-.ms-Icon--Flow {
-  -ms-transform: scaleX(-1);
-      transform: scaleX(-1);
+.ms-Icon--FabricFolderSearch::before {
+  content: '\F0A4';
+}
+
+.ms-Icon--FabricMovetoFolder::before {
+  content: '\F0A5';
+}
+
+.ms-Icon--FabricUnsyncFolder::before {
+  content: '\F0A6';
+}
+
+.ms-Icon--FabricSyncFolder::before {
+  content: '\F0A7';
+}
+
+.ms-Icon--FabricOpenFolderHorizontal::before {
+  content: '\F0A8';
+}
+
+.ms-Icon--FabricFolder::before {
+  content: '\F0A9';
+}
+
+.ms-Icon--FabricFolderFill::before {
+  content: '\F0AA';
+}
+
+.ms-Icon--FabricNewFolder::before {
+  content: '\F0AB';
+}
+
+.ms-Icon--FabricPictureLibrary::before {
+  content: '\F0AC';
+}
+
+.ms-Icon--AddFavorite::before {
+  content: '\F0C8';
+}
+
+.ms-Icon--AddFavoriteFill::before {
+  content: '\F0C9';
+}
+
+.ms-Icon--BufferTimeBefore::before {
+  content: '\F0CF';
+}
+
+.ms-Icon--BufferTimeAfter::before {
+  content: '\F0D0';
+}
+
+.ms-Icon--BufferTimeBoth::before {
+  content: '\F0D1';
+}
+
+.ms-Icon--PageCheckedin::before {
+  content: '\F104';
+}
+
+.ms-Icon--CaretBottomLeftSolid8::before {
+  content: '\F121';
+}
+
+.ms-Icon--CaretBottomRightSolid8::before {
+  content: '\F122';
+}
+
+.ms-Icon--ArrowDownRightMirrored8::before {
+  content: '\EED5';
+}
+
+.ms-Icon--ArrowDownRight8::before {
+  content: '\EEF0';
+}
+
+.ms-Icon--ArrowUpRightMirrored8::before {
+  content: '\EED4';
+}
+
+.ms-Icon--ArrowUpRight8::before {
+  content: '\EEEF';
 }
 
 .ms-Icon--BidiLtr::before {
@@ -4309,6 +4243,366 @@
 
 .ms-Icon--BidiRtl::before {
   content: '\E9AA';
+}
+
+.ms-Icon--BookmarksMirrored::before {
+  content: '\E8A4';
+}
+
+.ms-Icon--Bookmarks::before {
+  content: '\EA41';
+}
+
+.ms-Icon--BulletedListMirrored::before {
+  content: '\E8FD';
+}
+
+.ms-Icon--BulletedList::before {
+  content: '\EA42';
+}
+
+.ms-Icon--CalendarMirrored::before {
+  content: '\E787';
+}
+
+.ms-Icon--Calendar::before {
+  content: '\ED28';
+}
+
+.ms-Icon--CaretBottomLeftSolid8::before {
+  content: '\F122';
+}
+
+.ms-Icon--CaretBottomRightSolid8::before {
+  content: '\F121';
+}
+
+.ms-Icon--CaretHollowMirrored::before {
+  content: '\E817';
+}
+
+.ms-Icon--CaretHollow::before {
+  content: '\EA45';
+}
+
+.ms-Icon--CaretLeft8::before {
+  content: '\EDD6';
+}
+
+.ms-Icon--CaretRight8::before {
+  content: '\EDD5';
+}
+
+.ms-Icon--CaretLeftSolid8::before {
+  content: '\EDDA';
+}
+
+.ms-Icon--CaretRightSolid8::before {
+  content: '\EDD9';
+}
+
+.ms-Icon--CaretSolidMirrored::before {
+  content: '\E818';
+}
+
+.ms-Icon--CaretSolid::before {
+  content: '\EA46';
+}
+
+.ms-Icon--CaretTopLeftSolid8::before {
+  content: '\EF55';
+}
+
+.ms-Icon--CaretTopRightSolid8::before {
+  content: '\EF54';
+}
+
+.ms-Icon--ChevronLeft::before {
+  content: '\E76C';
+}
+
+.ms-Icon--ChevronRight::before {
+  content: '\E76B';
+}
+
+.ms-Icon--ChevronLeftMed::before {
+  content: '\E974';
+}
+
+.ms-Icon--ChevronRightMed::before {
+  content: '\E973';
+}
+
+.ms-Icon--ChevronLeftSmall::before {
+  content: '\E970';
+}
+
+.ms-Icon--ChevronRightSmall::before {
+  content: '\E96F';
+}
+
+.ms-Icon--ChromeBackMirrored::before {
+  content: '\E830';
+}
+
+.ms-Icon--ChromeBack::before {
+  content: '\EA47';
+}
+
+.ms-Icon--ClosePaneMirrored::before {
+  content: '\E89F';
+}
+
+.ms-Icon--ClosePane::before {
+  content: '\EA49';
+}
+
+.ms-Icon--CustomListMirrored::before {
+  content: '\EEBE';
+}
+
+.ms-Icon--CustomList::before {
+  content: '\EEBF';
+}
+
+.ms-Icon--DateTimeMirrored::before {
+  content: '\EC92';
+}
+
+.ms-Icon--DateTime::before {
+  content: '\EE93';
+}
+
+.ms-Icon--DockLeftMirrored::before {
+  content: '\E90C';
+}
+
+.ms-Icon--DockLeft::before {
+  content: '\EA4C';
+}
+
+.ms-Icon--DoubleChevronLeft::before {
+  content: '\EDBF';
+}
+
+.ms-Icon--DoubleChevronRight::before {
+  content: '\EDBE';
+}
+
+.ms-Icon--DoubleChevronLeft12::before {
+  content: '\EE99';
+}
+
+.ms-Icon--DoubleChevronRight12::before {
+  content: '\EE98';
+}
+
+.ms-Icon--DoubleChevronLeftMedMirrored::before {
+  content: '\E991';
+}
+
+.ms-Icon--DoubleChevronLeftMed::before {
+  content: '\EA4D';
+}
+
+.ms-Icon--EditMirrored::before {
+  content: '\E70F';
+}
+
+.ms-Icon--Edit::before {
+  content: '\EB7E';
+}
+
+.ms-Icon--FabricFormLibraryMirrored::before {
+  content: '\F09F';
+}
+
+.ms-Icon--FabricFormLibrary::before {
+  content: '\F0A0';
+}
+
+.ms-Icon--FabricReportLibraryMirrored::before {
+  content: '\F0A1';
+}
+
+.ms-Icon--FabricReportLibrary::before {
+  content: '\F0A2';
+}
+
+.ms-Icon--FlickLeft::before {
+  content: '\E938';
+}
+
+.ms-Icon--FlickRight::before {
+  content: '\E937';
+}
+
+.ms-Icon--FormLibraryMirrored::before {
+  content: '\EEB9';
+}
+
+.ms-Icon--FormLibrary::before {
+  content: '\EEBA';
+}
+
+.ms-Icon--Forward::before {
+  content: '\E72B';
+}
+
+.ms-Icon--Back::before {
+  content: '\E72A';
+}
+
+.ms-Icon--HelpMirrored::before {
+  content: '\E897';
+}
+
+.ms-Icon--Help::before {
+  content: '\EA51';
+}
+
+.ms-Icon--IssueTrackingMirrored::before {
+  content: '\EEC0';
+}
+
+.ms-Icon--IssueTracking::before {
+  content: '\EEC1';
+}
+
+.ms-Icon--ListMirrored::before {
+  content: '\EA37';
+}
+
+.ms-Icon--List::before {
+  content: '\EA55';
+}
+
+.ms-Icon--MailReplyAllMirrored::before {
+  content: '\E8C2';
+}
+
+.ms-Icon--MailReplyAll::before {
+  content: '\EA58';
+}
+
+.ms-Icon--MailReplyMirrored::before {
+  content: '\E8CA';
+}
+
+.ms-Icon--MailReply::before {
+  content: '\EA57';
+}
+
+.ms-Icon--MultiSelectMirrored::before {
+  content: '\E762';
+}
+
+.ms-Icon--MultiSelect::before {
+  content: '\EA98';
+}
+
+.ms-Icon--OpenPaneMirrored::before {
+  content: '\E8A0';
+}
+
+.ms-Icon--OpenPane::before {
+  content: '\EA5B';
+}
+
+.ms-Icon--PageLeft::before {
+  content: '\E761';
+}
+
+.ms-Icon--PageRight::before {
+  content: '\E760';
+}
+
+.ms-Icon--QuestionnaireMirrored::before {
+  content: '\EE19';
+}
+
+.ms-Icon--Questionnaire::before {
+  content: '\EE4B';
+}
+
+.ms-Icon--Redo::before {
+  content: '\E7A7';
+}
+
+.ms-Icon--Undo::before {
+  content: '\E7A6';
+}
+
+.ms-Icon--ReplyAllMirrored::before {
+  content: '\EE0A';
+}
+
+.ms-Icon--ReplyAll::before {
+  content: '\EE36';
+}
+
+.ms-Icon--ReplyMirrored::before {
+  content: '\E97A';
+}
+
+.ms-Icon--Reply::before {
+  content: '\EE35';
+}
+
+.ms-Icon--ReportLibraryMirrored::before {
+  content: '\EEBB';
+}
+
+.ms-Icon--ReportLibrary::before {
+  content: '\EEBC';
+}
+
+.ms-Icon--SendMirrored::before {
+  content: '\E724';
+}
+
+.ms-Icon--Send::before {
+  content: '\EA63';
+}
+
+.ms-Icon--ShowResultsMirrored::before {
+  content: '\E8BC';
+}
+
+.ms-Icon--ShowResults::before {
+  content: '\EA65';
+}
+
+.ms-Icon--TaskManagerMirrored::before {
+  content: '\EDB7';
+}
+
+.ms-Icon--TaskManager::before {
+  content: '\EDB8';
+}
+
+.ms-Icon--ThumbnailViewMirrored::before {
+  content: '\E7B6';
+}
+
+.ms-Icon--ThumbnailView::before {
+  content: '\EA67';
+}
+
+.ms-Icon--TriangleLeft12::before {
+  content: '\EED3';
+}
+
+.ms-Icon--TriangleRight12::before {
+  content: '\EED2';
+}
+
+.ms-Icon--TriangleSolidLeft12::before {
+  content: '\EECF';
+}
+
+.ms-Icon--TriangleSolidRight12::before {
+  content: '\EECE';
 }
 
 .ms-u-slideRightIn10 {
@@ -5359,199 +5653,297 @@
   .ms-u-md12 {
     width: 100%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md11 {
     width: 91.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md10 {
     width: 83.33333333333334%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md9 {
     width: 75%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md8 {
     width: 66.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md7 {
     width: 58.333333333333336%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md6 {
     width: 50%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md5 {
     width: 41.66666666666667%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md4 {
     width: 33.33333333333333%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md3 {
     width: 25%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md2 {
     width: 16.666666666666664%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-md1 {
     width: 8.333333333333332%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull12 {
     left: 100%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull11 {
     left: 91.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull10 {
     left: 83.33333333333334%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull9 {
     left: 75%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull8 {
     left: 66.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull7 {
     left: 58.333333333333336%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull6 {
     left: 50%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull5 {
     left: 41.66666666666667%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull4 {
     left: 33.33333333333333%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull3 {
     left: 25%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull2 {
     left: 16.666666666666664%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull1 {
     left: 8.333333333333332%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPull0 {
     left: auto;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush12 {
     right: 100%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush11 {
     right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush10 {
     right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush9 {
     right: 75%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush8 {
     right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush7 {
     right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush6 {
     right: 50%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush5 {
     right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush4 {
     right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush3 {
     right: 25%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush2 {
     right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush1 {
     right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdPush0 {
     right: auto;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset11 {
     margin-right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset10 {
     margin-right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset9 {
     margin-right: 75%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset8 {
     margin-right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset7 {
     margin-right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset6 {
     margin-right: 50%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset5 {
     margin-right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset4 {
     margin-right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset3 {
     margin-right: 25%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset2 {
     margin-right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset1 {
     margin-right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 480px) {
   .ms-u-mdOffset0 {
     margin-right: 0;
   }
@@ -5561,199 +5953,297 @@
   .ms-u-lg12 {
     width: 100%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg11 {
     width: 91.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg10 {
     width: 83.33333333333334%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg9 {
     width: 75%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg8 {
     width: 66.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg7 {
     width: 58.333333333333336%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg6 {
     width: 50%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg5 {
     width: 41.66666666666667%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg4 {
     width: 33.33333333333333%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg3 {
     width: 25%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg2 {
     width: 16.666666666666664%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lg1 {
     width: 8.333333333333332%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull12 {
     left: 100%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull11 {
     left: 91.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull10 {
     left: 83.33333333333334%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull9 {
     left: 75%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull8 {
     left: 66.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull7 {
     left: 58.333333333333336%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull6 {
     left: 50%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull5 {
     left: 41.66666666666667%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull4 {
     left: 33.33333333333333%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull3 {
     left: 25%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull2 {
     left: 16.666666666666664%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull1 {
     left: 8.333333333333332%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPull0 {
     left: auto;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush12 {
     right: 100%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush11 {
     right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush10 {
     right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush9 {
     right: 75%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush8 {
     right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush7 {
     right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush6 {
     right: 50%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush5 {
     right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush4 {
     right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush3 {
     right: 25%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush2 {
     right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush1 {
     right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgPush0 {
     right: auto;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset11 {
     margin-right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset10 {
     margin-right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset9 {
     margin-right: 75%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset8 {
     margin-right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset7 {
     margin-right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset6 {
     margin-right: 50%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset5 {
     margin-right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset4 {
     margin-right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset3 {
     margin-right: 25%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset2 {
     margin-right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset1 {
     margin-right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 640px) {
   .ms-u-lgOffset0 {
     margin-right: 0;
   }
@@ -5763,199 +6253,297 @@
   .ms-u-xl12 {
     width: 100%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl11 {
     width: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl10 {
     width: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl9 {
     width: 75%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl8 {
     width: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl7 {
     width: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl6 {
     width: 50%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl5 {
     width: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl4 {
     width: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl3 {
     width: 25%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl2 {
     width: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xl1 {
     width: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull12 {
     left: 100%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull11 {
     left: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull10 {
     left: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull9 {
     left: 75%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull8 {
     left: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull7 {
     left: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull6 {
     left: 50%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull5 {
     left: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull4 {
     left: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull3 {
     left: 25%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull2 {
     left: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull1 {
     left: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPull0 {
     left: auto;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush12 {
     right: 100%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush11 {
     right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush10 {
     right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush9 {
     right: 75%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush8 {
     right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush7 {
     right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush6 {
     right: 50%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush5 {
     right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush4 {
     right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush3 {
     right: 25%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush2 {
     right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush1 {
     right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlPush0 {
     right: auto;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset11 {
     margin-right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset10 {
     margin-right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset9 {
     margin-right: 75%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset8 {
     margin-right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset7 {
     margin-right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset6 {
     margin-right: 50%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset5 {
     margin-right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset4 {
     margin-right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset3 {
     margin-right: 25%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset2 {
     margin-right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset1 {
     margin-right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1024px) {
   .ms-u-xlOffset0 {
     margin-right: 0;
   }
@@ -5965,199 +6553,297 @@
   .ms-u-xxl12 {
     width: 100%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl11 {
     width: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl10 {
     width: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl9 {
     width: 75%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl8 {
     width: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl7 {
     width: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl6 {
     width: 50%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl5 {
     width: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl4 {
     width: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl3 {
     width: 25%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl2 {
     width: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxl1 {
     width: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull12 {
     left: 100%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull11 {
     left: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull10 {
     left: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull9 {
     left: 75%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull8 {
     left: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull7 {
     left: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull6 {
     left: 50%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull5 {
     left: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull4 {
     left: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull3 {
     left: 25%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull2 {
     left: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull1 {
     left: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPull0 {
     left: auto;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush12 {
     right: 100%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush11 {
     right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush10 {
     right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush9 {
     right: 75%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush8 {
     right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush7 {
     right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush6 {
     right: 50%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush5 {
     right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush4 {
     right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush3 {
     right: 25%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush2 {
     right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush1 {
     right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlPush0 {
     right: auto;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset11 {
     margin-right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset10 {
     margin-right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset9 {
     margin-right: 75%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset8 {
     margin-right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset7 {
     margin-right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset6 {
     margin-right: 50%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset5 {
     margin-right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset4 {
     margin-right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset3 {
     margin-right: 25%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset2 {
     margin-right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset1 {
     margin-right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1366px) {
   .ms-u-xxlOffset0 {
     margin-right: 0;
   }
@@ -6167,199 +6853,297 @@
   .ms-u-xxxl12 {
     width: 100%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl11 {
     width: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl10 {
     width: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl9 {
     width: 75%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl8 {
     width: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl7 {
     width: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl6 {
     width: 50%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl5 {
     width: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl4 {
     width: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl3 {
     width: 25%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl2 {
     width: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxl1 {
     width: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull12 {
     left: 100%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull11 {
     left: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull10 {
     left: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull9 {
     left: 75%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull8 {
     left: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull7 {
     left: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull6 {
     left: 50%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull5 {
     left: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull4 {
     left: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull3 {
     left: 25%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull2 {
     left: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull1 {
     left: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPull0 {
     left: auto;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush12 {
     right: 100%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush11 {
     right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush10 {
     right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush9 {
     right: 75%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush8 {
     right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush7 {
     right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush6 {
     right: 50%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush5 {
     right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush4 {
     right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush3 {
     right: 25%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush2 {
     right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush1 {
     right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlPush0 {
     right: auto;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset11 {
     margin-right: 91.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset10 {
     margin-right: 83.33333333333334%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset9 {
     margin-right: 75%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset8 {
     margin-right: 66.66666666666666%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset7 {
     margin-right: 58.333333333333336%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset6 {
     margin-right: 50%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset5 {
     margin-right: 41.66666666666667%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset4 {
     margin-right: 33.33333333333333%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset3 {
     margin-right: 25%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset2 {
     margin-right: 16.666666666666664%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset1 {
     margin-right: 8.333333333333332%;
   }
+}
 
+@media (min-width: 1920px) {
   .ms-u-xxxlOffset0 {
     margin-right: 0;
   }
