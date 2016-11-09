@@ -1,6 +1,6 @@
 /* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information. */
 /**
- * Office UI Fabric Core 5.0.0
+ * Office UI Fabric Core 5.0.1
  * The front-end framework for building experiences for Office 365.
  **/
 
@@ -495,28 +495,28 @@
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Light'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.ttf') format('truetype');
+  src: local('Segoe UI Light'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.ttf') format('truetype');
+  src: local('Segoe UI'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Semibold'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.ttf') format('truetype');
+  src: local('Segoe UI Semibold'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Semilight'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.ttf') format('truetype');
+  src: local('Segoe UI Semilight'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
@@ -1352,7 +1352,7 @@
 
 @font-face {
   font-family: 'FabricMDL2Icons';
-  src: url('https://spoppe-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.woff') format('woff'), url('https://spoppe-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.ttf') format('truetype');
+  src: url('https://spoprod-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
