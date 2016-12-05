@@ -1,6 +1,6 @@
 /* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE in the project root for license information. */
 /**
- * Office UI Fabric Core 5.0.1
+ * Office UI Fabric Core 5.1.0
  * The front-end framework for building experiences for Office 365.
  **/
 
@@ -495,28 +495,28 @@
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Light'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.ttf') format('truetype');
+  src: local('Segoe UI Light'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.woff') format('woff'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-light.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.ttf') format('truetype');
+  src: local('Segoe UI'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.woff') format('woff'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Semibold'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.ttf') format('truetype');
+  src: local('Segoe UI Semibold'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.woff') format('woff'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Segoe UI WestEuropean';
-  src: local('Segoe UI Semilight'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.ttf') format('truetype');
+  src: local('Segoe UI Semilight'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.woff') format('woff'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts//segoeui-westeuropean/segoeui-semilight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
@@ -1352,7 +1352,7 @@
 
 @font-face {
   font-family: 'FabricMDL2Icons';
-  src: url('https://spoprod-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.woff') format('woff'), url('https://spoprod-a.akamaihd.net/files/fabric/assets/icons/fabricmdl2icons.ttf') format('truetype');
+  src: url('https://static2.sharepointonline.com/files/fabric/assets/icons/fabricmdl2icons.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/icons/fabricmdl2icons.woff') format('woff'), url('https://static2.sharepointonline.com/files/fabric/assets/icons/fabricmdl2icons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -1421,6 +1421,14 @@
 
 .ms-Icon--l {
   font-size: 20px;
+}
+
+.ms-Icon--CarotRightSolid8::before {
+  content: '\EDDA';
+}
+
+.ms-Icon--DynamicsCRMLogo::before {
+  content: '\EDCC';
 }
 
 .ms-Icon--DecreaseIndentLegacy::before {
@@ -1793,6 +1801,10 @@
 
 .ms-Icon--PanoIndicator::before {
   content: '\E7B0';
+}
+
+.ms-Icon--RedEye::before {
+  content: '\E7B3';
 }
 
 .ms-Icon--ThumbnailView::before {
@@ -2335,6 +2347,10 @@
   content: '\E956';
 }
 
+.ms-Icon--Headset::before {
+  content: '\E95B';
+}
+
 .ms-Icon--Health::before {
   content: '\E95E';
 }
@@ -2691,6 +2707,10 @@
   content: '\EA67';
 }
 
+.ms-Icon--Devices3::before {
+  content: '\EA6C';
+}
+
 .ms-Icon--Lightbulb::before {
   content: '\EA80';
 }
@@ -2877,6 +2897,10 @@
 
 .ms-Icon--Ticket::before {
   content: '\EB54';
+}
+
+.ms-Icon--Devices4::before {
+  content: '\EB66';
 }
 
 .ms-Icon--AzureLogo::before {
@@ -3193,6 +3217,10 @@
 
 .ms-Icon--YammerLogo::before {
   content: '\ED19';
+}
+
+.ms-Icon--Hide::before {
+  content: '\ED1A';
 }
 
 .ms-Icon--ReturnToSession::before {
@@ -3531,7 +3559,6 @@
   content: '\EDCB';
 }
 
-.ms-Icon--DynamicsCRMLogo::before,
 .ms-Icon--Dynamics365Logo::before {
   content: '\EDCC';
 }
@@ -3588,7 +3615,6 @@
   content: '\EDD9';
 }
 
-.ms-Icon--CarotRightSolid8::before,
 .ms-Icon--CaretRightSolid8::before {
   content: '\EDDA';
 }
@@ -4219,6 +4245,22 @@
 
 .ms-Icon--CaretBottomRightSolid8::before {
   content: '\F122';
+}
+
+.ms-Icon--FolderHorizontal::before {
+  content: '\F12B';
+}
+
+.ms-Icon--MicrosoftStaffhubLogo::before {
+  content: '\F130';
+}
+
+.ms-Icon--CaloriesAdd::before {
+  content: '\F172';
+}
+
+.ms-Icon--BranchFork::before {
+  content: '\F173';
 }
 
 .ms-Icon--ArrowDownRightMirrored8::before {
