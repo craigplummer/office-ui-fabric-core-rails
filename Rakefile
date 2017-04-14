@@ -8,7 +8,7 @@ task :default => :spec
 namespace :assets do
   desc 'Update Office UI Fabric Core assets'
   task update: :clean do
-    sh 'npm install'
+    sh 'yarn install'
     sh 'cp -r node_modules/office-ui-fabric-core/dist/sass/* vendor/assets/scss'
     sh 'cp -r node_modules/office-ui-fabric-core/dist/css/* vendor/assets/css'
 
