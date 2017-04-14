@@ -6,205 +6,42 @@
 // Vendor-prefixed mixins
 
 // Border radius.
-@mixin ms-border-radius($ms-radius: 5px) {
-  border-radius: $ms-radius;
+@mixin ms-border-radius($radius: 5px) {
+  border-radius: $radius;
   background-clip: padding-box;
 }
 
 // Drop shadow.
-@mixin ms-drop-shadow($ms-x-offset: 0, $ms-y-offset: 0, $ms-blur: 5px, $ms-spread: 0, $ms-alpha: 0.4) {
-  box-shadow: $ms-x-offset $ms-y-offset $ms-blur $ms-spread rgba(0, 0, 0, $ms-alpha);
+@mixin ms-drop-shadow($x-offset: 0, $y-offset: 0, $blur: 5px, $spread: 0, $alpha: 0.4) {
+  box-shadow: $x-offset $y-offset $blur $spread rgba(0, 0, 0, $alpha);
 }
 
 // Background gradient.
-@mixin ms-background-gradient($ms-origin: left, $ms-start: #000, $ms-start-location: 0%, $ms-stop: #FFF, $ms-stop-location: 100%) {
-    background-color: $ms-start;
-    background-image: linear-gradient($ms-origin, $ms-start $ms-start-location, $ms-stop $ms-stop-location);
+@mixin ms-background-gradient($origin: left, $start: #000, $start-location: 0%, $stop: #FFF, $stop-location: 100%) {
+
+  // To maintain compatibility with the old arguments, reverse
+  // the $origin direction and set it as $destination.
+  $destination: null;
+  @if $origin == top {
+    $destination: bottom;
+  }
+  @if $origin == right {
+    $destination: left;
+  }
+  @if $origin == bottom {
+    $destination: top;
+  }
+  @if $origin == left {
+    $destination: right;
+  }
+
+  background-color: $start;
+  background-image: linear-gradient(to $destination, $start $start-location, $stop $stop-location);
 }
 
 // Rotation.
-@mixin ms-rotate($ms-deg) {
-  transform: rotate($ms-deg);
-}
-
-// Reset button styles.
-@mixin ms-button-reset() {
-  background: none;
-  border: 0;
-  cursor: pointer;
-}
-
-@mixin ms-reset-animation() {
-    -webkit-animation: none;
-    -moz-animation:  none;
-    -ms-animation:  none;
-    -o-animation:  none;
-    animation:  none;
-}
-
-@mixin ms-reset-backface() {
-   backface-visibility: visible;
-}
-
-@mixin ms-reset-background() {
-  background: 0;
-  background-clip: border-box;
-  background-origin: padding-box;
-}
-
-@mixin ms-reset-border() {
-  border: 0;
-  border-collapse: separate;
-  border-image: none;
-  border-radius: 0;
-  border-spacing: 0;
-}
-
-@mixin ms-reset-box-shadow() {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-@mixin ms-reset-box-sizing() {
-   box-sizing: content-box;
-}
-
-@mixin ms-reset-columns() {
-  columns: auto;
-  column-count: auto;
-  column-fill: balance;
-  column-gap: normal;
-  column-rule: medium none currentColor;
-  column-rule-color: currentColor;
-  column-rule-style: none;
-  column-rule-width: none;
-  column-span: 1;
-  column-width: auto;
-}
-
-
-// Fonts and Typography Resets
-@mixin ms-reset-font() {
-  font: normal;
-  font-family: inherit;
-  font-size: normal;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-}
-
-@mixin ms-reset-text-styling() {
-  text-align: inherit;
-  text-align-last: auto;
-  text-decoration: none;
-  text-decoration-color: inherit;
-  text-decoration-line: none;
-  text-decoration-style: solid;
-  text-indent: 0;
-  text-shadow: none;
-  text-transform: none;
-  line-height: normal;
-  letter-spacing: normal;
-  word-spacing: normal;
-}
-
-
-// Box Model Resets
-@mixin ms-reset-padding() {
-  padding: 0;
-}
-
-@mixin ms-reset-margins() {
-  margin: 0;
-}
-
-@mixin ms-reset-overflow() {
-  overflow: visible;
-}
-
-@mixin ms-reset-max() {
-    max-height: none;
-    max-width: none;
-}
-
-@mixin ms-reset-min() {
-    min-height: 0;
-    min-width: 0;
-}
-
-@mixin ms-reset-positioning() {
-  bottom: auto;
-  left: auto;
-  top: auto;
-  left: auto;
-}
-
-@mixin ms-reset-float() {
-  float: none;
-}
-
-@mixin ms-reset-height($ms-useMaxMin: false) {
-    height: auto;
-    @if $ms-useMaxMin == true {
-        min-height: 0;
-        max-height: 0;
-    }
-}
-
-@mixin ms-reset-width($ms-useMaxMin: false) {
-    width: auto;
-    @if $ms-useMaxMin == true {
-        min-width: 0;
-        max-width: 0;
-    }
-}
-
-@mixin ms-reset-position() {
-  position: static;
-}
-
-@mixin ms-reset-perspective() {
-  -webkit-perspective: none;
-  -webkit-perspective-origin: 50% 50%;
-  perspective: none;
-  perspective-origin: 50% 50%;
-
-}
-
-@mixin ms-reset-transition() {
-  -webkit-transition: none;
-  transition: none;
-}
-
-@mixin ms-reset-list-style() {
-  list-style: none;
-}
-
-@mixin ms-reset-transform() {
-  -ms-transform: none;
-  -webkit-transform: none;
-  -webkit-transform-style: flat;
-  transform: none;
-  transform-style: flat;
-}
-
-@mixin ms-reset-outline() {
-  outline: 0;
-}
-
-@mixin ms-reset-page-break() {
-  page-break-after: auto;
-  page-break-before: auto;
-  page-break-inside: auto;
-}
-
-@mixin ms-reset-display() {
-  display: block;
-}
-
-@mixin ms-reset-vertical-align() {
-    vertical-align: baseline;
+@mixin ms-rotate($deg) {
+  transform: rotate($deg);
 }
 
 // Prevents user selection of text elements.
@@ -232,12 +69,12 @@
     display: flex;
 }
 
-@mixin ms-alignItems($ms-mode) {
-    -webkit-box-align: $ms-mode;
-    -moz-box-align: $ms-mode;
-    -ms-flex-align: $ms-mode;
-    -webkit-align-items: $ms-mode;
-    align-items: $ms-mode;
+@mixin ms-alignItems($mode) {
+    -webkit-box-align: $mode;
+    -moz-box-align: $mode;
+    -ms-flex-align: $mode;
+    -webkit-align-items: $mode;
+    align-items: $mode;
 }
 
 // Base/wrapper component to set typography throughout the app.
@@ -248,6 +85,7 @@
   @include ms-inherit-font-family();
   color: $ms-color-neutralPrimary;
   font-family: $ms-font-family-west-european;
+  font-size: $ms-font-size-m;
 }
 
 // Set the font-family to 'inherit' for elements where the browser
@@ -329,12 +167,12 @@
 // Basic border-box, margin, and padding reset.
 @mixin ms-normalize {
   @include ms-borderBox;
-  @include ms-reset-margins;
-  @include ms-reset-padding;
-  @include ms-reset-box-shadow;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
 }
 
-// To set various text alignment styles 
+// Generate text alignment classes, such as .ms-textAlignLeft 
 // @param [variable list] $alignments
 @mixin ms-textAlign($alignments...) {
   @each $align in $alignments {
